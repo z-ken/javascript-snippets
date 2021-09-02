@@ -2,4 +2,4 @@
 
 Here is just a raw collection about some useful javascript snippets.
 
-The collection will be fuelled constantly.
+This collection will be expanded constantly.

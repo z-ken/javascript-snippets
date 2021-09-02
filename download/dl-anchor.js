@@ -1,4 +1,13 @@
-// Download from url
+/**
+ * @fileoverview Download by an HTML anchor element
+ *
+ * Usage:
+ * download("http://127.0.0.1/path/abc.zip");
+ *
+ *
+ * @author Ken Zetta <https://github.com/z-ken>
+ */
+
 function download(url, filename) {
   if (!filename) {
     filename = url.slice(url.lastIndexOf("/") + 1);
@@ -13,6 +22,3 @@ function download(url, filename) {
   anchor.click();
   document.body.removeChild(anchor);
 }
-
-// Usage:
-// download("http://127.0.0.1/path/abc.zip");
