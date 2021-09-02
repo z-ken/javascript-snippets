@@ -1,0 +1,9 @@
+{
+  "name": "javascript-snippets",
+  "version": "1.0.0",
+  "description": "collection of javacsript snippets",
+  "main": "index.js",
+  "author": "Ken Zetta",
+  "license": "MIT",
+  "private": true
+}
